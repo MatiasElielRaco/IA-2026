@@ -51,65 +51,65 @@
 # Ejercicios
 
 # 1
-numeros = [3, 7, 10, 2, 8]
+# numeros = [3, 7, 10, 2, 8]
 
-suma = numeros[0] + numeros[4]
-print(suma, numeros[0], numeros[4])
+# suma = numeros[0] + numeros[4]
+# print(suma, numeros[0], numeros[4])
 
-# 2
-coordenadas = (10, -20)
+# # 2
+# coordenadas = (10, -20)
 
-x = coordenadas[0]
-y = coordenadas[1]
+# x = coordenadas[0]
+# y = coordenadas[1]
 
-if( x > 0 and y > 0):
-    print("punto valido")
-else :
-    print("punto no valido")
+# if( x > 0 and y > 0):
+#     print("punto valido")
+# else :
+#     print("punto no valido")
 
-# 3
-persona = { 
-    "nombre": "Juan",
-    "edad": 20,
-    "activo": False
-}
+# # 3
+# persona = { 
+#     "nombre": "Juan",
+#     "edad": 20,
+#     "activo": False
+# }
 
-print(persona["nombre"]) 
-if(persona["edad"] >= 18 and persona["activo"]):
-    print("Acceso permitido")
-else:
-    print("Acceso denegado")
+# print(persona["nombre"]) 
+# if(persona["edad"] >= 18 and persona["activo"]):
+#     print("Acceso permitido")
+# else:
+#     print("Acceso denegado")
 
-# 4
-notas = [8, 6, 9]
+# # 4
+# notas = [8, 6, 9]
 
-promedio = (notas[0] + notas[1] + notas[2]) / len(notas)
-if(promedio >= 7):
-    print(f"Tu promedio es: {promedio}. Aprobado")
-else:
-    print(f"Tu promedio es: {promedio}. Desaprobado")
+# promedio = (notas[0] + notas[1] + notas[2]) / len(notas)
+# if(promedio >= 7):
+#     print(f"Tu promedio es: {promedio}. Aprobado")
+# else:
+#     print(f"Tu promedio es: {promedio}. Desaprobado")
 
-# 5
-sensor = {
-    "temperatura": 39,
-    "presion": 120,
-}
+# # 5
+# sensor = {
+#     "temperatura": 39,
+#     "presion": 120,
+# }
 
-if(sensor["temperatura"] >= 38):
-    print("Alerta")
-else:
-    print("Normal")
+# if(sensor["temperatura"] >= 38):
+#     print("Alerta")
+# else:
+#     print("Normal")
 
-# 6
-usuario = {
-    "nombre": "Matias",
-    "rol": "admin",
-    "intentos": 3
-}
+# # 6
+# usuario = {
+#     "nombre": "Matias",
+#     "rol": "admin",
+#     "intentos": 3
+# }
 
-if(usuario["rol"] == "admin" and usuario["intentos"] <= 3):
-    print("Acceso Total")
-elif(usuario["rol"] != "admin" and usuario["intentos"] <= 3):
-    print("Acceso Limitado")
-else:
-    print("Acceso Denegado")
+# if(usuario["rol"] == "admin" and usuario["intentos"] <= 3):
+#     print("Acceso Total")
+# elif(usuario["rol"] != "admin" and usuario["intentos"] <= 3):
+#     print("Acceso Limitado")
+# else:
+#     print("Acceso Denegado")
